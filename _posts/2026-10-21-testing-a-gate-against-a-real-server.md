@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: [Engineering, Testing]
 title: "Testing a gate against a real server, not a stub"
 date: 2026-10-21
 description: "A stub that returns the answer you expect proves little. Running the real API in test mode showed refusals and approvals that the stub never produced."

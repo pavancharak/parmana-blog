@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: [Security, Operations]
 title: "A kill switch that survives restarts"
 date: 2026-10-21
 description: "How Parmana's operator kill switch refuses new actions at once, keeps its state in Postgres, and is checked by a probe that runs every 15 minutes."

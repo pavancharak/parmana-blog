@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: [Engineering]
 title: "Fail closed, and the third answer"
 date: 2026-10-21
 description: "A gate in front of an action gives three answers, not two: refused, released, or unknown. The unknown one is the easy one to get wrong."

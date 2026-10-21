@@ -1,5 +1,10 @@
 title: Parmana Blog
 description: Technical notes on AI governance, authorization and verifiable execution.
 url: "https://blog.parmanasystems.com"
-theme: minima
 author: Pavan Dev Singh Charak
+lang: en
+permalink: /:year/:month/:day/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

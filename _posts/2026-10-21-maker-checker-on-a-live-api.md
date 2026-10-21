@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: [Governance]
 title: "Maker and checker on a live API: what we proved, and what we did not"
 date: 2026-10-21
 description: "A policy change needs a listed checker. We found production refusing every approval, fixed it, and approved one live change. Here is exactly what that shows."
