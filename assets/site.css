@@ -57,3 +57,5 @@ h2 { font-size: 1.35rem; margin: 2rem 0 .5rem; }
 .subscribe { background: var(--soft); border-top: 1px solid var(--line); padding: 2rem 0; }
 .subscribe h2 { margin: 0 0 .4rem; font-size: 1.25rem; }
 .subscribe p { margin: 0 0 1rem; color: var(--muted); }
+.subscribe .actions { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+.subscribe .link { font-weight: 600; }
