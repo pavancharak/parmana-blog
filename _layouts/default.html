@@ -24,6 +24,13 @@
   <main id="main" class="wrap">
     {{ content }}
   </main>
+  <aside class="subscribe" aria-labelledby="subscribe-title">
+    <div class="wrap">
+      <h2 id="subscribe-title">Get new posts</h2>
+      <p>New posts appear in your feed reader as soon as they are published.</p>
+      <a class="button" href="{{ '/feed.xml' | relative_url }}">Subscribe by RSS</a>
+    </div>
+  </aside>
   <footer class="site-footer">
     <div class="wrap">
       <p>Written by {{ site.author }}. <a href="https://parmanasystems.com">Parmana</a> &middot; <a href="https://docs.parmanasystems.com">Docs</a> &middot; <a href="https://cal.com/pavan-charak/">Book a meeting</a></p>

@@ -54,3 +54,6 @@ h2 { font-size: 1.35rem; margin: 2rem 0 .5rem; }
 .pager .next { text-align: right; }
 .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; padding: 1.5rem 0 2.5rem; }
 @media (max-width: 480px) { body { font-size: 16px; } h1 { font-size: 1.6rem; } }
+.subscribe { background: var(--soft); border-top: 1px solid var(--line); padding: 2rem 0; }
+.subscribe h2 { margin: 0 0 .4rem; font-size: 1.25rem; }
+.subscribe p { margin: 0 0 1rem; color: var(--muted); }
