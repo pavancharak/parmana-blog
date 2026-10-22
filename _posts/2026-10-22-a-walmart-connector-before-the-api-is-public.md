@@ -8,7 +8,7 @@ description: "Walmart's Agent Gateway is in beta and its tools are not published
 
 After Walmart announced its Agent Gateway, the obvious question was what a Parmana connector for it would take. The gateway is an MCP server in beta, and its tool names and schemas are not public. So we built everything on our side that does not depend on them, tested it against a mock, and listed what is still missing.
 
-The code is in the Parmana repository under [`examples/walmart-agent-gateway`](https://github.com/pavancharak/parmana/tree/main/examples/walmart-agent-gateway). It is an example, not a claim: Walmart's real gateway is not called.
+It is an example, not a claim: Walmart's real gateway is not called, and the example is not part of the Parmana repository today. If you want to build the same thing, the pieces below are all on the documented [external connector path](https://docs.parmanasystems.com/guides/connect-any-external-system).
 
 ## The shape
 
