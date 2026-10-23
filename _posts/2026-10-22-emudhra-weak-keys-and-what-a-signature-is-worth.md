@@ -29,7 +29,7 @@ Node.js shipped security releases on 21 October (22.23.4, 24.22.1 and 26.12.1) t
 
 | Where Parmana runs | What we found | What we did |
 |---|---|---|
-| The Docker image, for self hosting and the published image | Its Node base image was Node 24.22.0, before the fixed release | Re-pinned the base image to Node 24.22.1 (23 October). The published image is rebuilt with the next server release |
+| The Docker image, for self hosting and the published image | Its Node base image was Node 24.22.0, before the fixed release | Re-pinned the base image to Node 24.22.1 and published `ghcr.io/pavancharak/parmana-api:server-v1.0.1` (23 October), with signed build provenance. It includes the startup check below |
 | Continuous integration | Installs the newest Node 24 on every run | Nothing needed; it already includes the fix |
 | The hosted API | Its hosting provider runs Node 24.21.0, and a redeploy does not change that | The server now removes eMudhra's four emSign root certificates from its trust list at startup, before any outbound connection, so a certificate issued from the weak keys is refused whatever Node version runs it. The production log confirms it: `"node":"v24.21.0"`, `"distrustedRootsRemoved":4` |
 | The Python SDK | Uses `requests`, which uses certifi | Users should update certifi to 2026.10.19 or later |
