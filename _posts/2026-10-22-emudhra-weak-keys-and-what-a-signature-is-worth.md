@@ -27,14 +27,18 @@ Node.js shipped security releases on 21 October (22.23.4, 24.22.1 and 26.12.1) t
 
 ## What we checked in Parmana
 
-| Where Parmana runs | What we found | What we are doing |
+| Where Parmana runs | What we found | What we did |
 |---|---|---|
-| The Docker image, for self hosting and the published image | Its Node base image was pinned on 15 October, before the fixed Node release | Re-pinning to a base image with the fix, then publishing a new image |
-| Continuous integration | Installs the newest Node 24 on every run | Already includes the fix |
-| The hosted API and sandbox | Run on the hosting provider's Node runtime | Confirming the runtime version, and redeploying if it is older |
+| The Docker image, for self hosting and the published image | Its Node base image was Node 24.22.0, before the fixed release | Re-pinned the base image to Node 24.22.1 (23 October). The published image is rebuilt with the next server release |
+| Continuous integration | Installs the newest Node 24 on every run | Nothing needed; it already includes the fix |
+| The hosted API | Its hosting provider runs Node 24.21.0, and a redeploy does not change that | The server now removes eMudhra's four emSign root certificates from its trust list at startup, before any outbound connection, so a certificate issued from the weak keys is refused whatever Node version runs it. The production log confirms it: `"node":"v24.21.0"`, `"distrustedRootsRemoved":4` |
 | The Python SDK | Uses `requests`, which uses certifi | Users should update certifi to 2026.10.19 or later |
 
-If you self host Parmana, rebuild from a base image with Node 24.22.1 or later once our updated image is out, or rebuild your own now. If your host uses the operating system's trust store instead of Node's, update that too.
+The last row was a surprise. We had expected to check a version number and redeploy. The hosting provider decides which Node patch runs, and on 23 October it was still one release behind the fix. So we stopped relying on the runtime and made the server distrust the roots itself. The cost is that a server whose certificate chains to an emSign root can no longer be reached from Parmana; none of the systems it calls uses one.
+
+If you self host Parmana, rebuild from the current `Dockerfile`; the startup check applies there too. If your host uses the operating system's trust store instead of Node's, update that as well.
+
+**Update, 23 October 2026:** this section now reports what was done, not what was planned.
 
 ## What a signature is worth
 
