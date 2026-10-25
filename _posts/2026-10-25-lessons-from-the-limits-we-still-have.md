@@ -4,11 +4,11 @@ categories: [Security]
 title: "Lessons from the limits we still have"
 date: 2026-10-25 00:50:00 +0000
 series: "From limits to proof"
-series_part: 5
+series_part: 4
 description: "Honest lessons from building Parmana: what we got wrong, what we fixed, and the limits we still document instead of hiding."
 ---
 
-This is part 5, the last post in the series From limits to proof. It looks back at what the earlier parts left out.
+This is part 4 of the series From limits to proof. It looks back at what the earlier parts left out, and what is still open.
 
 Most launch posts describe what a product does. This one describes what we got wrong, what we found, and what we still have not solved. We think a control that names its limits is more useful than one that claims to have none.
 
