@@ -8,5 +8,12 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+contact_email: founder@parmanasystems.com
+giscus_repo: pavancharak/parmana-blog
+giscus_category: Blog comments
+# Fill these in from giscus.app after enabling Discussions and installing the Giscus app.
+# Until both are set, the comments section stays hidden.
+giscus_repo_id: ""
+giscus_category_id: ""
 plugins:
   - jekyll-feed

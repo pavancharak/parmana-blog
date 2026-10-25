@@ -19,4 +19,26 @@ layout: default
     {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><span>Previous</span>{{ page.previous.title }}</a>{% endif %}
     {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><span>Next</span>{{ page.next.title }}</a>{% endif %}
   </nav>
+  <section class="reply" aria-labelledby="reply-title">
+    <h2 id="reply-title">Reply to this post</h2>
+    <p><a class="button" href="mailto:{{ site.contact_email }}?subject={{ 'Re: ' | append: page.title | url_encode }}">Reply by email</a></p>
+    {% if site.giscus_repo_id and site.giscus_category_id %}
+    <div class="comments">
+      <script src="https://giscus.app/client.js"
+        data-repo="{{ site.giscus_repo }}"
+        data-repo-id="{{ site.giscus_repo_id }}"
+        data-category="{{ site.giscus_category }}"
+        data-category-id="{{ site.giscus_category_id }}"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async></script>
+    </div>
+    {% endif %}
+  </section>
 </article>
