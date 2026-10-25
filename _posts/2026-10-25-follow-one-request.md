@@ -5,7 +5,7 @@ title: "Follow one request through the code"
 date: 2026-10-25 02:10:00 +0000
 series: "Working on Parmana"
 series_part: 3
-description: "Trace one execution request from the HTTP route to the business system and the signed record, stage by stage, so you can read and change the pipeline with confidence."
+description: "Trace one execution request from the HTTP route to the business system and the signed record, stage by stage."
 ---
 
 This is part 3 of the series Working on Parmana. Part 2 mapped the packages. This part follows a single request through them, from the HTTP route to the business system and the signed record. Once you can trace one request, you can read the rest of the code.

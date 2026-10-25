@@ -8,7 +8,7 @@ series_part: 6
 description: "The branch, sign-off, tests and records a change needs before it is merged, and the CI checks that run again on every pull request."
 ---
 
-This is part 6 of the series Working on Parmana. Parts 2 to 5 covered the map, the request path, the policy and the connector. This part covers what a change must pass before it is merged, so the work you have done reaches the code in a state that can be trusted.
+This is part 6 of the series Working on Parmana. Part 5 covered adding a connector, and the earlier parts covered the map, the request path and the policy. This part covers what a change must pass before it is merged, so the work you have done reaches the code in a state that can be trusted.
 
 ## What it does
 
