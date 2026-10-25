@@ -6,6 +6,8 @@ lang: en
 permalink: /:year/:month/:day/:title/
 exclude:
   - README.md
+  - WRITING-GUIDE.md
+  - templates
   - Gemfile
   - Gemfile.lock
 plugins:
