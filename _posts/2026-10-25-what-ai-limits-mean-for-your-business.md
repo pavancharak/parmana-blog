@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Product]
-title: "What AI spending limits mean for your business"
+title: "Part 1: What AI spending limits mean for your business"
 date: 2026-10-25 00:10:00 +0000
 series: "From limits to proof"
 series_part: 1

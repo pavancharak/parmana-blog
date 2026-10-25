@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Compliance]
-title: "How to have Parmana reviewed independently"
+title: "Part 5: How to have Parmana reviewed independently"
 date: 2026-10-25 01:00:00 +0000
 series: "From limits to proof"
 series_part: 5

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Engineering]
-title: "Add a connector, one step at a time"
+title: "Part 5: Add a connector, one step at a time"
 date: 2026-10-25 02:30:00 +0000
 series: "Working on Parmana"
 series_part: 5

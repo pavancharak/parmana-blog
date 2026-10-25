@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Engineering]
-title: "Run the checks in an afternoon"
+title: "Part 1: Run the checks in an afternoon"
 date: 2026-10-25 00:30:00 +0000
 series: "Working on Parmana"
 series_part: 1

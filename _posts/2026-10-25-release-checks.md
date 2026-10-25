@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Engineering]
-title: "The checks a change must pass before release"
+title: "Part 6: The checks a change must pass before release"
 date: 2026-10-25 02:40:00 +0000
 series: "Working on Parmana"
 series_part: 6
