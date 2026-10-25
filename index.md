@@ -11,7 +11,7 @@ description: Technical notes on how Parmana checks every action and keeps proof 
 {% for post in site.posts %}
   <li>
     <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>{% for c in post.categories %} <a class="pill" href="{{ '/categories/' | relative_url }}#{{ c | slugify }}">{{ c }}</a>{% endfor %}</p>
+    <p class="meta">{% if post.series %}<span class="series-label">{{ post.series }}, part {{ post.series_part }}</span> &middot; {% endif %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>{% for c in post.categories %} <a class="pill" href="{{ '/categories/' | relative_url }}#{{ c | slugify }}">{{ c }}</a>{% endfor %}</p>
     <p>{{ post.description }}</p>
   </li>
 {% endfor %}
