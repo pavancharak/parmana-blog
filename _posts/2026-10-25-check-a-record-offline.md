@@ -2,9 +2,13 @@
 layout: post
 categories: [Compliance]
 title: "Check a record offline, without trusting us"
-date: 2026-10-25
+date: 2026-10-25 00:40:00 +0000
+series: "From limits to proof"
+series_part: 3
 description: "How an auditor or risk team can check a signed Parmana record with a file and a trust file, with no network access and no account."
 ---
+
+This is part 3 of the series From limits to proof. Part 2 gave you questions to ask a vendor. This part shows an auditor how to check one signed record.
 
 An audit is only as strong as the evidence behind it. If the only proof that an AI action was approved is a log written by the system that did the action, the auditor has to trust that system. This post explains how to check a Parmana record without trusting Parmana's servers or database.
 

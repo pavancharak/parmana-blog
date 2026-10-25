@@ -2,9 +2,13 @@
 layout: post
 categories: [Product]
 title: "What AI spending limits mean for your business"
-date: 2026-10-25
+date: 2026-10-25 00:10:00 +0000
+series: "From limits to proof"
+series_part: 1
 description: "A plain guide for business leaders on why AI needs limits outside the AI, who approves what, and how to know an action was allowed."
 ---
+
+This is part 1 of the series From limits to proof. It explains why limits must sit outside the AI.
 
 Your business is starting to let AI systems do real work: issue refunds, pay suppliers, update customer records. That saves time, and it also means a mistake can cost money or harm a customer in minutes. This post is for leaders who need to decide how much control to keep, and what proof to ask for.
 

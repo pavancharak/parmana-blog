@@ -2,9 +2,13 @@
 layout: post
 categories: [Engineering]
 title: "Run the checks in an afternoon"
-date: 2026-10-25
+date: 2026-10-25 00:30:00 +0000
+series: "Working on Parmana"
+series_part: 1
 description: "A practical walkthrough for engineers: build Parmana from source, run the test suite and the attack scenarios, and verify a signed record."
 ---
+
+This is part 1 of the series Working on Parmana. It gets a clean checkout building and testing, so every later part can be checked the same way.
 
 If you want to know whether Parmana does what it claims, you do not need to trust our description. You can build it, run the tests, run the attack scenarios, and check a signed record yourself. This post gives the steps in order, with the commands we use.
 

@@ -15,6 +15,17 @@ layout: default
   <div class="content">
     {{ content }}
   </div>
+  {% if page.series %}
+  {% assign series_posts = site.posts | where: "series", page.series | sort: "series_part" %}
+  <aside class="series" aria-labelledby="series-title">
+    <p id="series-title" class="series-title">{{ page.series }}: part {{ page.series_part }} of {{ series_posts | size }}</p>
+    <ol>
+      {% for p in series_posts %}
+      <li>{% if p.url == page.url %}<strong>{{ p.title }}</strong>{% else %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% endif %}</li>
+      {% endfor %}
+    </ol>
+  </aside>
+  {% endif %}
   <nav class="pager" aria-label="Previous and next posts">
     {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><span>Previous</span>{{ page.previous.title }}</a>{% endif %}
     {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><span>Next</span>{{ page.next.title }}</a>{% endif %}

@@ -1,0 +1,19 @@
+name: Check blog posts
+
+on:
+  pull_request:
+    paths:
+      - "_posts/**"
+      - "scripts/check_posts.py"
+      - "WRITING-GUIDE.md"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every post against the writing guide
+        run: python3 scripts/check_posts.py

@@ -2,7 +2,9 @@
 layout: post
 categories: [Security]
 title: "Sentence case title, under 70 characters"
-date: YYYY-MM-DD
+date: YYYY-MM-DD HH:MM:SS +0000
+series: "Name of the series this post belongs to"
+series_part: N
 description: "One sentence that tells the reader what they will learn. Under 160 characters."
 ---
 
@@ -10,7 +12,7 @@ description: "One sentence that tells the reader what they will learn. Under 160
 
 <!-- Reader: name who this post is for: business leaders, engineers, or auditors and risk teams. -->
 
-Opening: two to four sentences. State the problem, who it affects, and what this post covers.
+This is part N of the series NAME. Say which part came before it, and what it builds on. Then state the problem, who it affects, and what this post covers. Use two to four sentences in total.
 
 ## What it does
 
