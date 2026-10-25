@@ -2,9 +2,13 @@
 layout: post
 categories: [Product]
 title: "How to choose a control for AI actions"
-date: 2026-10-25
+date: 2026-10-25 00:20:00 +0000
+series: "From limits to proof"
+series_part: 2
 description: "Seven questions to ask any vendor before you let AI take real actions, with the answers to look for and the warning signs to avoid."
 ---
+
+This is part 2 of the series From limits to proof. Part 1 explained why limits must sit outside the AI. This part gives you the questions to ask before you choose a tool that does that.
 
 Many tools now promise to make AI safe for business. Some filter text, some manage who can call an API, and some only log what happened. Those can all be useful, but they answer different questions. This post gives you questions to ask before you choose, so you can compare tools on the same terms.
 

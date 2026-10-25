@@ -41,7 +41,9 @@ Every post starts with this front matter, in this order:
 layout: post
 categories: [Security]
 title: "Sentence case title, under 70 characters"
-date: YYYY-MM-DD
+date: YYYY-MM-DD HH:MM:SS +0000
+series: "Name of the series this post belongs to"
+series_part: N
 description: "One sentence that tells the reader what they will learn. Under 160 characters."
 ---
 ```
@@ -49,10 +51,21 @@ description: "One sentence that tells the reader what they will learn. Under 160
 - **layout:** always `post`.
 - **categories:** one or two of `Security`, `Operations`, `Engineering`, `Product`, `Compliance`.
 - **title:** sentence case, specific, and free of dashes.
-- **date:** the publication date, in `YYYY-MM-DD` format.
+- **date:** the publication date and time, as `YYYY-MM-DD HH:MM:SS +0000`. The time keeps posts from the same day in order. Use a time before the time the site is built, so the post is not treated as a future post.
 - **description:** one sentence. It appears in search results and on the post list.
 
 File names follow the pattern `YYYY-MM-DD-short-kebab-title.md` and match the date in the front matter.
+
+## Series and order
+
+Every post belongs to a series, so readers can follow the posts in order. Each post shows its place in the series, with every part listed, and the reader can move to the next part.
+
+- **series:** the series name. Use the same name exactly for every part.
+- **series_part:** the position in the series, counting from 1. Each new post takes the next number.
+- **Opening paragraph:** every part after the first says which part came before it, and what it builds on. The first part says it is part 1.
+- **Next part:** a new post must be the next logical step after the last one. Do not skip a step, and do not repeat one. If a post belongs in a different series, start that series at part 1.
+
+A reader should be able to find the previous and next post from the post itself, without searching the blog.
 
 ## Structure
 
