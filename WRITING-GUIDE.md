@@ -40,7 +40,7 @@ Every post starts with this front matter, in this order:
 ---
 layout: post
 categories: [Security]
-title: "Sentence case title, under 70 characters"
+title: "Part N: Sentence case title, under 70 characters"
 date: YYYY-MM-DD HH:MM:SS +0000
 series: "Name of the series this post belongs to"
 series_part: N
@@ -50,7 +50,7 @@ description: "One sentence that tells the reader what they will learn. Under 160
 
 - **layout:** always `post`.
 - **categories:** one or two of `Security`, `Operations`, `Engineering`, `Product`, `Compliance`.
-- **title:** sentence case, specific, and free of dashes.
+- **title:** starts with the part number, as `Part N: `, then a sentence case title. It is specific, free of dashes, and 70 characters or fewer. The number must match `series_part`.
 - **date:** the publication date and time, as `YYYY-MM-DD HH:MM:SS +0000`. The time keeps posts from the same day in order. Use a time before the time the site is built, so the post is not treated as a future post.
 - **description:** one sentence. It appears in search results and on the post list.
 

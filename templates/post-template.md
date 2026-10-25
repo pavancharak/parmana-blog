@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Security]
-title: "Sentence case title, under 70 characters"
+title: "Part N: Sentence case title, under 70 characters"
 date: YYYY-MM-DD HH:MM:SS +0000
 series: "Name of the series this post belongs to"
 series_part: N

@@ -12,7 +12,7 @@ description: Every topic on the Parmana blog, with the posts in each.
   <h2>{{ cat[0] }}</h2>
   <ul class="post-list">
   {% for post in cat[1] %}
-    <li><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time></span></li>
+    <li><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% if post.series %}<span class="series-label">{{ post.series }}, part {{ post.series_part }}</span> &middot; {% endif %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time></span></li>
   {% endfor %}
   </ul>
 </section>

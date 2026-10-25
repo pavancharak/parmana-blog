@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Security]
-title: "Lessons from the limits we still have"
+title: "Part 4: Lessons from the limits we still have"
 date: 2026-10-25 00:50:00 +0000
 series: "From limits to proof"
 series_part: 4

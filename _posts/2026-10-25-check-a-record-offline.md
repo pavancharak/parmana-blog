@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Compliance]
-title: "Check a record offline, without trusting us"
+title: "Part 3: Check a record offline, without trusting us"
 date: 2026-10-25 00:40:00 +0000
 series: "From limits to proof"
 series_part: 3

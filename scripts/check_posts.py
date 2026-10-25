@@ -66,6 +66,12 @@ def check_file(path, errors):
 
     if len(fields.get("title", "")) > 70:
         errors.append(f"{name}: title is longer than 70 characters")
+    try:
+        title_part = int(fields.get("series_part", ""))
+    except ValueError:
+        title_part = None
+    if title_part is not None and not fields.get("title", "").startswith(f"Part {title_part}: "):
+        errors.append(f"{name}: the title must start with 'Part {title_part}: '")
     if len(fields.get("description", "")) > 160:
         errors.append(f"{name}: description is longer than 160 characters")
 

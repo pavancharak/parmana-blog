@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Product]
-title: "How to choose a control for AI actions"
+title: "Part 2: How to choose a control for AI actions"
 date: 2026-10-25 00:20:00 +0000
 series: "From limits to proof"
 series_part: 2

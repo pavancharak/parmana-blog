@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Engineering]
-title: "Map the packages before you change anything"
+title: "Part 2: Map the packages before you change anything"
 date: 2026-10-25 02:00:00 +0000
 series: "Working on Parmana"
 series_part: 2
