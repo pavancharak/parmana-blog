@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+Every post on this blog belongs to a series, and each series is listed below in reading order. Each entry gives the post title, the page address, and a one-sentence summary.
+
+{% assign series_names = site.posts | map: "series" | uniq %}{% for name in series_names %}
+## {{ name }}
+
+{% assign parts = site.posts | where: "series", name | sort: "series_part" %}{% for p in parts %}
+- [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.description }}{% endfor %}
+{% endfor %}
