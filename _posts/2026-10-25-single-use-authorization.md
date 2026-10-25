@@ -22,6 +22,4 @@ The envelope proves that Parmana authorized the request. It does not prove that 
 
 The envelope signer and verifier are named in the concept page, with the source files listed.
 
-## What is still open
-
-The envelope's lifetime and its replay rules must stay in step with the nonce and expiry checks, or an envelope could be accepted too long.
+Source: [docs/site/concepts/execution-authorization.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/concepts/execution-authorization.mdx).

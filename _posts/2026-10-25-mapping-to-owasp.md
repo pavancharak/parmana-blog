@@ -22,6 +22,4 @@ The mapping does not cover every item on either list, and it does not say that a
 
 The mapping is in the public documentation, next to the threat model it relates to.
 
-## What is still open
-
-Both lists change. The mapping must be updated when a new version is published.
+Source: [docs/site/security/owasp-mapping.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/security/owasp-mapping.mdx).

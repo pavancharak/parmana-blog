@@ -22,6 +22,4 @@ The refusal page sets out two scope caveats that bound the claim. Read them befo
 
 The builder and the signing code for refusal records are named in the page.
 
-## What is still open
-
-Refusal records only cover requests that reach the decision. A request that fails earlier leaves its own, different evidence.
+Source: [docs/site/concepts/refusal-records.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/concepts/refusal-records.mdx).

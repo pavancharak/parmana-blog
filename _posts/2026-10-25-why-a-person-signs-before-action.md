@@ -22,6 +22,4 @@ Parmana does not hold a request while it waits for a person. A refused request i
 
 The rule is enforced in the human approval concept page, and the same rule is listed as an invariant that tests check.
 
-## What is still open
-
-Approvals that are not used or expire must be requested again. Plan for the time this takes in your process.
+Source: [docs/site/concepts/human-approval.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/concepts/human-approval.mdx).

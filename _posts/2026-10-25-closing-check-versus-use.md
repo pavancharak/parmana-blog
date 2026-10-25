@@ -22,6 +22,4 @@ The page sets out what the mechanism covers and what it does not. Read that sect
 
 The binding is wired into the server bootstrap, which builds the gateway unconditionally.
 
-## What is still open
-
-Changes to how content is serialized must keep the hash stable, or the comparison will refuse valid requests.
+Source: [docs/site/concepts/content-binding-toctou.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/concepts/content-binding-toctou.mdx).

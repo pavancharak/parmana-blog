@@ -22,6 +22,4 @@ The guide describes the process. It does not say who your approvers should be, a
 
 The steps are described in the policy governance guide, linked from this post.
 
-## What is still open
-
-The guide must match the code. If a step changes, the guide changes in the same pull request.
+Source: [docs/site/guides/policy-governance-maker-checker.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/guides/policy-governance-maker-checker.mdx).

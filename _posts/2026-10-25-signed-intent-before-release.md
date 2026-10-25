@@ -22,6 +22,4 @@ The intent proves what Parmana was about to release. It does not prove that the 
 
 The feature is listed as available, with the source files named in the page and a live verification date.
 
-## What is still open
-
-Actions released before the intent existed need repair, and the page describes how to find them.
+Source: [docs/site/concepts/execution-intents.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/concepts/execution-intents.mdx).

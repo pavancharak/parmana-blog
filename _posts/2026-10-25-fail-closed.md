@@ -24,6 +24,4 @@ Fail closed does not make the system always available. A correct refusal can blo
 
 The principle is stated in the contribution rules and applied in the glossary. The connector behavior is described in the connector build guide, which lists what each missing piece produces.
 
-## What is still open
-
-Every new failure path must refuse in the same way. A code review should check that new paths do not fall back to allowing the action.
+Source: [CONTRIBUTING.md](https://github.com/pavancharak/parmana-core/blob/main/CONTRIBUTING.md).

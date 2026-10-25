@@ -22,6 +22,4 @@ The runbook is the procedure. This post does not repeat its steps, and it contai
 
 The runbook names the scripts and bootstrap code it was written from, so you can check it against the code.
 
-## What is still open
-
-Rotation needs a second person to confirm access still works. Keep the runbook's checks in your own process.
+Source: [docs/runbooks/KEY-ROTATION.md](https://github.com/pavancharak/parmana-core/blob/main/docs/runbooks/KEY-ROTATION.md).

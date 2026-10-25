@@ -22,6 +22,4 @@ The kill switch stops new actions. It does not reverse actions that already ran.
 
 The runbook records the decision that introduced the switch, and the setting that controls the second operator for a reset.
 
-## What is still open
-
-The runbook does not hold production values, and it must not. Keep secrets out of tickets and chat when you operate the switch.
+Source: [docs/runbooks/KILL-SWITCH-OPERATIONS.md](https://github.com/pavancharak/parmana-core/blob/main/docs/runbooks/KILL-SWITCH-OPERATIONS.md).

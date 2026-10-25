@@ -22,6 +22,4 @@ The chain shows that the record has not been altered. It does not show that the 
 
 The record and how to verify it are described in the governance folder's README.
 
-## What is still open
-
-The record is only as complete as the process that writes it. Check that every approved change appears in it.
+Source: [governance/README.md](https://github.com/pavancharak/parmana-core/blob/main/governance/README.md).

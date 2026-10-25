@@ -22,6 +22,4 @@ The guide's status note says which grants are implemented and deployed, and whic
 
 The grant guide describes each refusal and what the signed record holds for it.
 
-## What is still open
-
-Grants must be reviewed when they expire, or the agent keeps the permission past its purpose.
+Source: [docs/site/guides/grant-an-agent-authority.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/guides/grant-an-agent-authority.mdx).

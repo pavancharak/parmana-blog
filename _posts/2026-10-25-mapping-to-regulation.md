@@ -22,6 +22,4 @@ The mapping is not legal advice, and it does not say that a provision is met. Re
 
 The mapping is in the public documentation, and it names each provision it covers.
 
-## What is still open
-
-Regulations change. The mapping must be reviewed when a provision it cites is updated.
+Source: [docs/site/security/regulation-mapping.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/security/regulation-mapping.mdx).

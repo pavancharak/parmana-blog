@@ -22,6 +22,4 @@ This check depends on the owning system being correct. If that system holds wron
 
 The concept page names the statuses for authority, validity and execution, and how a trusted signal is recorded.
 
-## What is still open
-
-Each business system needs to be connected before a policy can rely on its facts.
+Source: [docs/site/concepts/business-validation.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/concepts/business-validation.mdx).

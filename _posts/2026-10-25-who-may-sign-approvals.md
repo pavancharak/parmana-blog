@@ -22,6 +22,4 @@ Parmana does not decide who should be an approver. That is a business decision, 
 
 The runbook names the code file where the issuers are listed, and it separates policy-change checkers from approval issuers.
 
-## What is still open
-
-The runbook lists what is still open for approval issuers. Read that section before you add or revoke one.
+Source: [docs/runbooks/APPROVAL-ISSUERS.md](https://github.com/pavancharak/parmana-core/blob/main/docs/runbooks/APPROVAL-ISSUERS.md).

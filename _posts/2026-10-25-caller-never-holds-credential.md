@@ -24,6 +24,4 @@ The isolation page marks this as available as a mechanism but partial as a syste
 
 The mechanism lives in the execution control package, and the isolation page names the packages involved.
 
-## What is still open
-
-Each connector must be checked against the scope note. The guarantee depends on how the connector is built.
+Source: [docs/site/concepts/credential-isolation.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/concepts/credential-isolation.mdx).

@@ -24,6 +24,4 @@ The threat model does not remove the residual risks it lists. Read each threat w
 
 The model was reviewed against the main branch on 2026-10-10, and it must change in the same pull request as any claim, enforcement point, or attacker capability that changes. Each attack scenario can be run with npm run evaluate.
 
-## What is still open
-
-The model is a snapshot. Check its review date against the code you are reading.
+Source: [THREAT-MODEL.md](https://github.com/pavancharak/parmana-core/blob/main/THREAT-MODEL.md).

@@ -22,6 +22,4 @@ The files show what a policy says. They do not show whether it is the right poli
 
 The engine rules are stated in the policy concept page, and the policy package has unit tests.
 
-## What is still open
-
-Each version needs a review before it is used. The next part covers how that review is recorded.
+Source: [policies/customer-refund](https://github.com/pavancharak/parmana-core/blob/main/policies/customer-refund).

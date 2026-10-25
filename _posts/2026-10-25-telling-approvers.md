@@ -22,6 +22,4 @@ A notification approves nothing. The approver still signs the approval themselve
 
 The guide lists the settings for each channel, so you can check the configuration against it.
 
-## What is still open
-
-Notifications depend on the channel being configured. Test each channel before you rely on it.
+Source: [docs/site/guides/approval-notifications.mdx](https://github.com/pavancharak/parmana-core/blob/main/docs/site/guides/approval-notifications.mdx).
