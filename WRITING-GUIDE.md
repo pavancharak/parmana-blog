@@ -49,7 +49,7 @@ description: "One sentence that tells the reader what they will learn. Under 160
 ```
 
 - **layout:** always `post`.
-- **categories:** one or two of `Security`, `Operations`, `Engineering`, `Product`, `Compliance`.
+- **categories:** one or two of `Security`, `AI governance`, `Operations`, `Engineering`, `Product`, `Compliance`.
 - **title:** starts with the part number, as `Part N: `, then a sentence case title. It is specific, free of dashes, and 70 characters or fewer. The number must match `series_part`.
 - **date:** the publication date and time, as `YYYY-MM-DD HH:MM:SS +0000`. The time keeps posts from the same day in order. Use a time before the time the site is built, so the post is not treated as a future post.
 - **description:** one sentence. It appears in search results and on the post list.

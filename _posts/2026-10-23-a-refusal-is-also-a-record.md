@@ -1,10 +1,14 @@
 ---
 layout: post
-categories: [Engineering]
-title: "A refusal is also a record"
-date: 2026-10-23
-description: "When Parmana stops an AI agent's action, it still writes a signed record of why. Here is what a refusal record holds, and why a failure to write one never blocks the refusal."
+categories: [AI governance]
+title: "Part 11: A refusal is also a record"
+date: 2026-10-23 04:10:00 +0000
+series: "AI governance in practice"
+series_part: 11
+description: "When Parmana stops an action, it still writes a signed record of why. Here is what a refusal record holds, and why a failed write never blocks the refusal."
 ---
+
+This is part 11 of the series AI governance in practice. Part 10 mapped Parmana to the OWASP risks. This part covers the evidence left behind when an action is refused.
 
 When a system stops an action, the record usually stops too. The request is logged as an error, or nothing is kept at all. That is a gap. If an AI agent tried to make a payment and was stopped, someone will later want to know what it asked for, which rule stopped it, and whether the check itself was sound.
 
@@ -42,3 +46,9 @@ Checking a signature does not show that the rule was the right one. It shows whi
 Refusal records give a reviewer a way to ask why an action did not happen. They also let a team look for patterns: a rule that stops too many requests, a signal that is often missing, or an agent that keeps asking for the same thing.
 
 The refusal record page and the verifier commands are in the [documentation](https://docs.parmanasystems.com).
+
+## What it does not do
+
+A refusal can exist without a record, if the write fails. The failure is logged, but the refusal itself stands without its evidence until an operator finds and looks into the case.
+
+Checking a refusal record's signature does not show that the rule that stopped the request was the right one. It shows which rule was applied, and that the record has not changed since it was signed.
