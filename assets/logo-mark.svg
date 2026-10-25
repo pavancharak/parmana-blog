@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600">
+  <circle cx="800" cy="800" r="557" fill="none" stroke="#14130f" stroke-width="4"/>
+  <circle cx="800" cy="800" r="498" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+  <g stroke="#14130f" stroke-width="4" stroke-linecap="butt">
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(0 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(22.5 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(45 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(67.5 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(90 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(112.5 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(135 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(157.5 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(180 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(202.5 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(225 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(247.5 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(270 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(292.5 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(315 800 800)"/>
+    <line x1="800" y1="16" x2="800" y2="44" transform="rotate(337.5 800 800)"/>
+  </g>
+  <path fill="#14130f" d="M630 603H970V670H917V1016H851V893L680 1007L640 955L730 897C690 880 664 845 664 800V670H630Z M731 670H851V812C830 832 810 843 790 843C755 843 731 822 731 800Z" fill-rule="evenodd"/>
+</svg>
